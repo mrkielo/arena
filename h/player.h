@@ -1,12 +1,8 @@
 #include <iostream>
+#include "../h/warrior.h"
 
-class Player {
+class Player : public Warrior
+{
 public:
-  int m_hp;
-  int m_attack;
-  std::string m_name;
-
-  Player(int hp, int attack);
-
   void SetName();
 };

@@ -1,7 +1,7 @@
-
-class Enemy
+#include <string>
+#include "../h/warrior.h"
+class Enemy : public Warrior
 {
-	public:
-	int m_hp;
-	int m_attack;
+public:
+	Enemy(int hp, int attack, std::string name);
 };
