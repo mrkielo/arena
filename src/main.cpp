@@ -14,7 +14,7 @@ int main()
     Player player = Player(100, 10);
     player.SetName();
 
-    Enemy enemy = Enemy(50, 5, "Goblin");
+    Enemy enemy = Enemy(75, 5, "Goblin");
 
     Fight(player, enemy);
 

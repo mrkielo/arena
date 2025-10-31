@@ -3,5 +3,5 @@
 class Enemy : public Warrior
 {
 public:
-	Enemy(int hp, int attack, std::string name);
+  using Warrior::Warrior;
 };

@@ -4,5 +4,6 @@
 class Player : public Warrior
 {
 public:
+  using Warrior::Warrior;
   void SetName();
 };
