@@ -21,15 +21,14 @@ void Fight(Player player, Enemy enemy)
     while (player.m_hp > 0 && enemy.m_hp > 0)
     {
         enemy.m_hp -= player.m_attack;
-        DrawFightUI(player, enemy, 1);
+        DrawFightUI(player, enemy, true);
         if (enemy.m_hp <= 0)
         {
             break;
         }
 
         player.m_hp -= enemy.m_attack;
-        DrawFightUI(player,  enemy,1);
-
+        DrawFightUI(player, enemy, true);
     }
     if (player.m_hp <= 0)
     {

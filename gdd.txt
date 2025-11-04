@@ -1,0 +1,2 @@
+Game Loop:
+Miasto, teges w miescie, arena i w kółko
